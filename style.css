@@ -1,0 +1,678 @@
+@charset "UTF-8";
+* {
+  transition: 0.5s;
+  font-family: 微軟正黑體;
+}
+
+nav.navbar {
+  font-size: 18px;
+  margin-right: -120px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+  font-size: 20px;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+header.jumbotron {
+  background-image: url(https://i.imgur.com/SplWzOO.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron .container img {
+  width: 120%;
+  display: block;
+  margin: -100px -120px;
+}
+header.jumbotron .container h1 {
+  font-size: 50px;
+}
+header.jumbotron .container h2 {
+  font-size: 30px;
+}
+header.jumbotron .container .button1 {
+  margin-right: 20px;
+}
+header.jumbotron .container .button1, header.jumbotron .container .button2 {
+  display: inline-block;
+  width: 18%;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #eeeeed;
+  color: #3f2d2c;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: auto;
+}
+header.jumbotron .container .box1 {
+  width: 100px;
+  height: 1px;
+  border: solid 1px white;
+  position: absolute;
+  top: 80px;
+}
+header.jumbotron .container .box2 {
+  width: 500px;
+  height: 1px;
+  border: solid 1px white;
+  position: absolute;
+  top: 160px;
+}
+header.jumbotron .container .box3 {
+  width: 500px;
+  height: 1px;
+  border: solid 1px white;
+  position: absolute;
+  top: 240px;
+}
+header.jumbotron .container .box4 {
+  width: 500px;
+  height: 1px;
+  border: solid 1px white;
+  position: absolute;
+  top: 320px;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_about {
+  background-color: #3f2d2c;
+  color: #EEF8FA;
+}
+section#section_about h2 {
+  color: #fdf0ef;
+}
+section#section_about .img_wrap {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+section#section_about img {
+  width: 100%;
+  margin-left: -50px;
+  margin-top: -20px;
+}
+
+section#section_activities {
+  text-align: center;
+  position: relative;
+}
+section#section_activities img {
+  width: 95%;
+  margin-top: 30px;
+}
+section#section_activities img:hover {
+  width: 100%;
+}
+section#section_activities h1 {
+  text-align: left;
+}
+
+section#section_courses {
+  background-color: #fdf0ef;
+  color: #3f2d2c;
+  text-align: center;
+  cursor: default;
+  position: relative;
+}
+section#section_courses h1 {
+  text-align: left;
+}
+section#section_courses .cs h4 {
+  color: #555;
+}
+section#section_courses .cs p {
+  position: relative;
+  opacity: 0;
+  height: 0px;
+  transform: translateY(-20%);
+}
+section#section_courses .cs:hover h4 {
+  opacity: 0;
+  transform: translateY(-30%);
+}
+section#section_courses .cs:hover p {
+  opacity: 1;
+  height: 120px;
+}
+section#section_courses .img_wrap {
+  height: 200px;
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+}
+section#section_courses img {
+  width: 117%;
+  height: 200px;
+  object-fit: cover;
+}
+section#section_courses .img1 {
+  margin-left: -35px;
+}
+section#section_courses .img3 {
+  width: 100%;
+}
+
+section#section_internship {
+  background-color: #3f2d2c;
+  color: #EEF8FA;
+}
+section#section_internship hr {
+  width: 110%;
+}
+section#section_internship .title {
+  display: inline-block;
+}
+section#section_internship h3 {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+section#section_internship .intern {
+  cursor: pointer;
+  border: solid 2.5px #fdf0ef;
+  padding: 16px;
+  text-align: center;
+  width: 55%;
+  margin: 15px auto;
+  color: #EEF8FA;
+}
+section#section_internship .discrition_wrap {
+  margin-top: 15px;
+  border: solid 1px white;
+  width: 650px;
+  height: 450px;
+  overflow: hidden;
+}
+section#section_internship .discription_img {
+  margin: 0px 0px auto auto;
+  background-size: cover;
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/16992214_1403626656379320_6156250274119294727_o.jpg?oh=55f0d866cda3e51a19d7606119556f73&oe=5968F573);
+  width: 650px;
+  height: 450px;
+}
+section#section_internship .discription_text {
+  width: 120%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+section#section_CTY12 img {
+  width: 100%;
+}
+section#section_CTY12 .img_wrap {
+  height: 300px;
+  overflow: hidden;
+}
+section#section_CTY12 .logo {
+  width: 60%;
+}
+section#section_CTY12 .img_wrap1 {
+  height: 120px;
+  overflow: hidden;
+}
+section#section_CTY12 .logo1-1 {
+  width: 80%;
+  display: block;
+  margin-top: 18px;
+}
+section#section_CTY12 .logo2-1 {
+  margin-left: -10px;
+  margin-top: 12px;
+}
+
+section#section_team {
+  background-color: #fdf0ef;
+}
+section#section_team .img_wrap {
+  width: 350px;
+  height: 230px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+section#section_team .img_wrap .wrap_10 {
+  background-color: white;
+}
+section#section_team .img_wrap .img2 {
+  width: 120%;
+  margin-left: -40px;
+}
+section#section_team .img_wrap .img3 {
+  width: 128%;
+  margin-left: -70px;
+  margin-top: -40px;
+}
+section#section_team .img_wrap .img4 {
+  width: 110%;
+  margin-left: -40px;
+  margin-top: -10px;
+}
+section#section_team .img_wrap .img5 {
+  width: 130%;
+  margin-left: -50px;
+  margin-top: -30px;
+}
+section#section_team .img_wrap .img6 {
+  width: 125%;
+  margin-left: -50px;
+  margin-top: -20px;
+}
+section#section_team .img_wrap .img7 {
+  width: 140%;
+  margin-left: -60px;
+  margin-top: -20px;
+}
+section#section_team .img_wrap .img8 {
+  width: 120%;
+  margin-left: -40px;
+}
+section#section_team .img_wrap .img9 {
+  width: 140%;
+  margin-left: -80px;
+  margin-top: -70px;
+}
+section#section_team .img_wrap .img10 {
+  width: 120%;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+section#section_team .img_wrap .img11 {
+  width: 140%;
+  margin-left: -70px;
+  margin-top: -35px;
+}
+section#section_team .img_wrap .img12 {
+  width: 140%;
+  margin-left: -70px;
+  margin-top: -20px;
+}
+section#section_team .img_wrap .img13 {
+  width: 120%;
+  margin-left: -70px;
+  margin-top: -5px;
+}
+section#section_team .img_wrap .img14 {
+  width: 140%;
+  margin-left: -80px;
+  margin-top: -50px;
+}
+section#section_team .img_wrap .img15 {
+  width: 100%;
+  margin-right: 1000px;
+  margin-top: 5px;
+}
+section#section_team img {
+  width: 100%;
+}
+section#section_team .image-caption-wrapper {
+  position: absolute;
+  top: auto;
+  bottom: 20px;
+  left: auto;
+  right: auto;
+  padding: 0px 18px;
+  background: #3f2d2c;
+  opacity: 0.8;
+  width: 350px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section#section_team .image-caption-wrapper .image-caption {
+  color: #EEF8FA;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.hide {
+  display: hide;
+}
+
+.block {
+  display: block;
+}
+
+section#QA {
+  background-color: #3f2d2c;
+  color: #EEF8FA;
+}
+
+footer.jumbotron {
+  position: relative;
+  background-image: url(https://i.imgur.com/SplWzOO.jpg);
+  background-size: cover;
+  margin-bottom: 0px;
+}
+footer.jumbotron .img_wrap {
+  height: 500px;
+  overflow: hidden;
+}
+footer.jumbotron img {
+  width: 100%;
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav.navbar-nav.navbar-right {
+    position: absolute;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav.navbar-nav.navbar-right li {
+    font-size: 18px;
+  }
+  .nav.navbar-nav.navbar-right .p8 {
+    display: none;
+  }
+
+  header.jumbotron {
+    height: 550px;
+  }
+  header.jumbotron img {
+    min-width: 600px;
+  }
+  header.jumbotron h1 {
+    margin-top: 60px;
+  }
+
+  section#section_about {
+    padding: 30px 10px;
+  }
+  section#section_about .img_wrap {
+    position: static;
+    width: 500px;
+    margin: 0 auto;
+    height: 450px;
+  }
+  section#section_about img {
+    margin-left: 0px;
+  }
+
+  section#section_courses .cs {
+    height: 350px;
+  }
+
+  section#section_internship .discrition_wrap {
+    width: 100%;
+    min-width: 650px;
+    margin: 0px auto;
+  }
+  section#section_internship .discrition_wrap .discription_img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#section_internship .discription_text {
+    width: 100%;
+  }
+
+  section#section_CTY12 .img_wrap1 {
+    margin: -45px 0px;
+  }
+  section#section_CTY12 img.top2 {
+    height: 250px;
+  }
+  section#section_CTY12 .img_wrap {
+    height: 230px;
+    overflow: hidden;
+  }
+
+  footer.jumbotron {
+    background-image: url(https://i.imgur.com/SplWzOO.jpg);
+    width: 100%;
+    height: 550px;
+  }
+  footer.jumbotron .img_wrap {
+    min-width: 100px;
+  }
+  footer.jumbotron img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+}
+.cty08 {
+  transform: translate(0%, 40%);
+  height: 1000px;
+  height: 450px;
+  margin-top: 400px;
+  margin-bottom: -100px;
+}
+
+.bar1 {
+  text-align: center;
+}
+
+.sponsors {
+  padding-top: 40px;
+  color: #424242;
+  font-weight: bold;
+}
+
+.cooperate {
+  display: flex;
+}
+
+.cooperateword {
+  margin-left: 40px;
+}
+
+.logo0 {
+  cursor: pointer;
+  background-size: cover;
+  background-image: url(https://i.imgur.com/gelChl9.png);
+  margin-left: 48px;
+  margin-top: 30px;
+}
+
+.logo0-1 {
+  cursor: pointer;
+  background-size: cover;
+  height: 40px;
+  width: 225px;
+  background-image: url(https://ymj-cty12.github.io/cty12/img/11.png);
+  margin-left: 48px;
+  margin-top: 16px;
+}
+
+.logo1 {
+  cursor: pointer;
+  background-size: cover;
+  height: 51px;
+  width: 225px;
+  background-image: url(https://i.imgur.com/siNaB4F.jpg);
+  margin-left: 48px;
+  margin-top: 30px;
+}
+
+.logo2 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/miGoYql.jpg);
+  margin-left: 50px;
+  margin-top: 27px;
+  height: 56px;
+  width: 242px;
+  background-size: cover;
+}
+
+.logo3 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/yOa5Y8T.jpg);
+  height: 56px;
+  width: 245px;
+  background-size: cover;
+  margin-left: 48px;
+  margin-top: 27px;
+}
+
+.assist {
+  display: flex;
+}
+
+.assistword {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.logo4 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/uuo4zhw.jpg);
+  height: 56px;
+  width: 198px;
+  background-size: cover;
+  margin-left: 48px;
+  margin-top: 27px;
+}
+
+.logo5 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/5ZLAOM2.jpg);
+  background-size: cover;
+  height: 80px;
+  width: 273px;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.logo6 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/MFrYBuo.jpg);
+  height: 80px;
+  width: 230px;
+  background-size: cover;
+  margin-left: 48px;
+  margin-top: 20px;
+}
+
+.logo7 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/mbVIM32.jpg);
+  height: 85px;
+  width: 185px;
+  background-size: cover;
+  margin-left: 68px;
+  margin-top: 18px;
+}
+
+.supportword {
+  margin-left: 40px;
+  margin-top: 29px;
+}
+
+.support {
+  display: flex;
+}
+
+.logo8 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/nfpLk1S.jpg);
+  height: 69px;
+  width: 180px;
+  background-size: cover;
+  margin-left: 48px;
+  margin-top: 18px;
+}
+
+.logo9 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/hsOkiJP.jpg);
+  height: 72px;
+  width: 219px;
+  background-size: cover;
+  margin-left: 85px;
+  margin-top: 16px;
+}
+
+.logo10 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/okNyvHv.jpg);
+  height: 190px;
+  width: 233px;
+  background-size: cover;
+  margin-left: 80px;
+  margin-top: -50px;
+}
+
+.logo11 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/UzO5dmz.jpg);
+  height: 51px;
+  width: 226px;
+  background-size: cover;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+.support2 {
+  display: flex;
+}
+
+.logo12 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/SBKdlyA.png);
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin-left: 67px;
+  margin-top: 18px;
+}
+
+.logo13 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/MLwLYko.jpg);
+  height: 100px;
+  width: 210px;
+  background-size: cover;
+  margin-left: 90px;
+  margin-top: 45px;
+}
+
+.logo14 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/9uoR3bC.jpg);
+  height: 70px;
+  width: 210px;
+  background-size: cover;
+  margin-left: 110px;
+  margin-top: 58px;
+}
+
+.logo15 {
+  cursor: pointer;
+  background-image: url(https://i.imgur.com/Q3WV3zR.jpg);
+  height: 92px;
+  width: 180px;
+  background-size: cover;
+  margin-left: 100px;
+  margin-top: 45px;
+}
